@@ -1,0 +1,6 @@
+cypress/reports/*
+videos
+screenshots
+*.log
+reports
+node_modules
