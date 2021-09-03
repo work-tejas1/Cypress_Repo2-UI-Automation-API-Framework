@@ -1,11 +1,6 @@
 // https://on.cypress.io/configuration
 Cypress.Server.defaults({
-  delay: 0,
-  force404: false,
-  ignore: (xhr) => {
-    // handle custom logic for whitelisting
-    return true;
-  }
+  ignore: xhr => true
 })
 
 
