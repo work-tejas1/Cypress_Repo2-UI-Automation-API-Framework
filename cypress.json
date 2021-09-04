@@ -5,6 +5,8 @@
     "viewportHeight": 1080,
     "pageLoadTimeout": 10000,
     "ignoreTestFiles": "IgnoreTest.js",
+    "videoCompression": false,
+    "trashAssetsBeforeRuns" : true,
 
     "env": {
         "dev" : "https://dev.domain.com",
