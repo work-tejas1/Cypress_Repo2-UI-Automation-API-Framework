@@ -1,8 +1,5 @@
 /// <reference types="cypress" />
 
-describe('Ignore me', () => {
-
-    it('Ignore test', function () {
-
-    })
+describe("Ignore me", () => {
+	it("Ignore test", function () {})
 })

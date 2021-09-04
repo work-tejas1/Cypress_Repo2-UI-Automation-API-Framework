@@ -1,19 +1,21 @@
 /// <reference types="cypress" />
 
-describe('TestCase_1', () => {
-    before(() => {
-        // runs once before all tests in the block  //Resolve promise is important 
-        // cy.fixture('data').then(function (data) {
-        //     this.data = data  //this keyboard refers to whole class. This changes Scope to entire class
-        // })
-    })
+describe("TestCase_1", () => {
+	before(() => {
+		// runs once before all tests in the block  //Resolve promise is important
+		// cy.fixture('data').then(function (data) {
+		//     this.data = data  //this keyboard refers to whole class. This changes Scope to entire class
+		// })
+	})
 
-    it('Contact us positive Test', function () {
-        cy.visit("https://webdriveruniversity.com/Contact-Us/contactus.html")
-        cy.url().should("contain", "contactus")
-        cy.get("[name='first_name']").type("Slow Typing", { delay: 70 }).should("have.value", "Slow Typing")
-        
-        /* Future Use Code
+	it("Contact us positive Test", function () {
+		cy.visit("https://webdriveruniversity.com/Contact-Us/contactus.html")
+		cy.url().should("contain", "contactus")
+		cy.get("[name='first_name']")
+			.type("Slow Typing", { delay: 70 })
+			.should("have.value", "Slow Typing")
+
+		/* Future Use Code
         cy.visit(Cypress.env('URL'))
         Cypress.on('uncaught:exception', (err, runnable) => {
             return false
@@ -35,7 +37,5 @@ describe('TestCase_1', () => {
          {
              cy.log(Nickname.text())
          }) */
-
-    })
-
+	})
 })

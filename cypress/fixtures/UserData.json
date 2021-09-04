@@ -1,5 +1,5 @@
 {
-    "firstName" : "UserFirstName",
-    "emailValue" : "user1@test.com",
-    "lastName" : "UserLastName"
+	"firstName": "UserFirstName",
+	"emailValue": "user1@test.com",
+	"lastName": "UserLastName"
 }
