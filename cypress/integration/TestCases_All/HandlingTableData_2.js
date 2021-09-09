@@ -1,4 +1,4 @@
-describe('Cypress Pagination Test', function () {
+describe('Cypress Pagination Test and table data handing', function () {
 
     it('Pagination Cypress Test', function () {
         cy.visit('https://examples.bootstrap-table.com/template.html?v=134&url=options%2Ftable-pagination.html')
