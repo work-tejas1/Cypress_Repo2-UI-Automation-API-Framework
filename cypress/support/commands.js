@@ -16,8 +16,8 @@ Cypress.Commands.add('webDriverUni_ContactUs', (firstName, lastName, emailValue,
 Cypress.Commands.add('addProductToBasket', productname => {
     cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
         if ($el.text() === productname) {
-           cy.log($el.text())
-           cy.get(".productcart").eq(index).click()
+            cy.log($el.text())
+            cy.get(".productcart").eq(index).click()
         }
     })
 });

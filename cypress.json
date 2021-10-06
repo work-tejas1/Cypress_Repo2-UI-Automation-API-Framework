@@ -6,10 +6,10 @@
     "pageLoadTimeout": 10000,
     "ignoreTestFiles": "IgnoreTest.js",
     "videoCompression": false,
-    "trashAssetsBeforeRuns" : true,
-
+    "trashAssetsBeforeRuns": true,
     "env": {
-        "dev" : "https://dev.domain.com",
-        "production" : "https://domain.com"
+        "dev": "https://dev.domain.com",
+        "webUniUrl": "https://webdriveruniversity.com/",
+        "production": "https://domain.com"
     }
 }
