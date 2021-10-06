@@ -1,6 +1,12 @@
 /// <reference types="cypress" />
 
-describe('Add multiple items to basket', () => {
+describe('Add multiple items to basket', {
+    retries: {
+        runMode: 2,
+        openMode: 1,
+    }
+}, () => {
+
     before(() => {
         cy.fixture("products").then((data) => {
             globalThis.data = data;
