@@ -2,7 +2,7 @@
 
 ### Before developing Cypress Framework get in touch with developers
 
-    - Share (document)[https://docs.cypress.io/guides/references/best-practices]
+    - Share [document](https://docs.cypress.io/guides/references/best-practices)
     - Ask if possible to use `data-test` or `data-testid`
 
 ### JenkinsSetup for cypress
