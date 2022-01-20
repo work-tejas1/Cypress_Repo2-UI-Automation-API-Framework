@@ -1,15 +1,20 @@
 {
-    "baseUrl": "https://automationteststore.com/",
-    "theme": "dark",
-    "viewportWidth": 1900,
-    "viewportHeight": 1080,
-    "pageLoadTimeout": 10000,
-    "ignoreTestFiles": "IgnoreTest.js",
-    "videoCompression": false,
-    "trashAssetsBeforeRuns": true,
-    "env": {
-        "dev": "https://dev.domain.com",
-        "webUniUrl": "https://webdriveruniversity.com/",
-        "production": "https://domain.com"
-    }
+  "baseUrl": "https://automationteststore.com/",
+  "theme": "dark",
+  "viewportWidth": 1900,
+  "viewportHeight": 1080,
+  "pageLoadTimeout": 10000,
+  "ignoreTestFiles": "IgnoreTest.js",
+  "videoCompression": false,
+  "defaultCommandTimeout": 6000,
+  "chromeWebSecurity": false,
+  "failOnStatusCode": false,
+  "trashAssetsBeforeRuns": true,
+  "env": {
+    "dev": "https://dev.domain.com",
+    "webUniUrl": "https://webdriveruniversity.com/",
+    "production": "https://domain.com",
+    "shareNow": "https://www.share-now.com/"
+  },
+  "hideXHR": true
 }
