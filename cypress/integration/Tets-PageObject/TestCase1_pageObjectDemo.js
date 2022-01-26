@@ -10,7 +10,7 @@ describe('TestCase 1 pageobject Demo', () => {
     cy.visit(Cypress.env('webUniUrl') + pageNav.contactUsUrl())
   })
 
-  it.skip('Contact us positive Test', function () {
+  it('Contact us positive Test', function () {
     contactUs
       .firstName()
       .type('First name slow Typing', { delay: 70 })
@@ -18,17 +18,5 @@ describe('TestCase 1 pageobject Demo', () => {
     contactUs.lastName().type('last name').should('have.value', 'last name')
     contactUs.email().type('email@domail.com')
     contactUs.message().type('Test comment') //timeout 12000 ms
-  })
-
-  const selector = [
-    '[name="first_name1"]',
-    '[name="last_name"]',
-    '[name="email"]',
-  ]
-
-  it.each(selector)(`Element %s is visible`, selector => {
-    cy.visit(Cypress.env('webUniUrl') + pageNav.contactUsUrl())
-
-    cy.get(selector).should('be.visible')
   })
 })
