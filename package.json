@@ -23,6 +23,7 @@
     "clipboardy": "^2.3.0",
     "cypress": "^9.3.1",
     "cypress-dark": "^1.8.0",
+    "cypress-each": "^1.10.0",
     "cypress-wait-until": "^1.7.1",
     "cypress-xpath": "^1.6.2",
     "mochawesome": "^6.2.2",
