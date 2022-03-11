@@ -13,6 +13,7 @@ describe('study driver login', () => {
   })
 
   it('preserve cookie demo', () => {
+    //invoke('css', 'border', '3px red black')
     cy.get("[class*='flex flex-wrap w-full']").should('have.length', 3)
   })
 })
