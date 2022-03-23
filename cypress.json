@@ -10,11 +10,13 @@
   "chromeWebSecurity": false,
   "failOnStatusCode": false,
   "trashAssetsBeforeRuns": true,
+  "testFiles": "**/*.feature",
   "env": {
     "dev": "https://dev.domain.com",
     "webUniUrl": "https://webdriveruniversity.com/",
     "production": "https://domain.com",
-    "shareNow": "https://www.share-now.com/"
+    "shareNow": "https://www.share-now.com/",
+    "sauceDemo": "https://www.saucedemo.com/"
   },
   "hideXHR": true
 }
